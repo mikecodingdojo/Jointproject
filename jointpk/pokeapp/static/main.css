@@ -1,0 +1,462 @@
+/*CSS reset settings here*/
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+p,
+blockquote,
+table,
+th,
+td,
+embed,
+object {
+    font-family: 'Abel', sans-serif;
+    
+    padding: 0;
+    margin: 0;
+    border: 0;
+    
+}
+
+.container{
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(172, 190, 163);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    
+}
+.col{
+    border: 2px solid black;
+}
+
+.loginlayout{
+    
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black; 
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: rgb(64, 71, 109);
+    color:whitesmoke;
+}
+
+.pokeimage img{
+    width: 280px;
+    height: 280px;
+    
+    
+}
+.pokeimage{
+    width: 240px;
+    height: 250px;  
+    
+    
+}
+
+.loginwelcome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 800px;
+    border:2px solid black; 
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color: rgb(173, 93, 78);
+    color:whitesmoke;
+}
+
+.loginbanner{
+    background-color: rgb(173, 93, 78);
+    color:whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 800px;
+    border:2px solid black; 
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.loginbanner ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 20px;
+    list-style: none;
+}
+.loginbanner ul li{
+
+    margin: 5px;
+}
+
+.reg{
+    
+    font-weight: 700;
+    font-size: 20px;
+}
+#loginbutton{
+    
+    margin-left: 80px;
+    background-color: rgb(235, 101, 52);
+    font-size: 25px;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    
+}
+
+#regcontainer{
+        background-color: rgb(235, 101, 52);
+        width: 600px;
+        margin-bottom: 10px;
+}
+
+#regbutton{
+    
+    margin-left: 80px;
+    background-color: rgb(173, 93, 78);
+    font-size: 15px;
+    width: 180px;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+.regform{
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+    border-radius: 10px;
+    width: 300px;
+    background-color: rgb(64, 71, 109);
+}
+
+.regform input{
+    width: 200px;
+    margin-left: 50px;
+}
+
+.regform label{
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+.buttonreg{
+    display: flex;
+    flex-direction: row;
+    
+    width: 270px;
+    margin-left: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-right: 10px;
+}
+.buttonreg a{
+    
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.dashboardbanner{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 800px;
+    height: 100px;
+    background-color: rgb(130, 103, 84);
+    color: whitesmoke;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.profilepicture{
+    border: 2px solid rgb(0, 0, 0) ;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 40px;
+    width: 80px;
+    height: 80px;
+}
+
+.profilepicture a{
+    font-size: 14px;
+}
+.dashboardtext{
+    margin-left: 150px;
+}
+.logout{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.borderdisplay{
+    display: flex;
+    justify-content: center;
+
+    border: 2px solid black; 
+    border-radius: 20px;
+    width: 800px;
+    height: 400px;
+    background-color: rgb(64, 71, 109);
+    margin-bottom: 10px;
+}
+
+.pokewindow{
+    display: flex;
+    align-items: center;
+    border: 2px solid black; 
+    border-radius: 20px;
+    width: 600px;
+    height: 350px;
+    margin-top: 25px;
+    background-color: rgb(255, 247, 234);
+    
+    
+
+}
+.mainwindow{
+    border-radius: 5px;
+    width: 580px;
+    height: 340px;
+    border: 2px solid black; 
+    margin-right: 20px;
+    overflow-y: scroll;
+    direction:rtl; 
+    margin-left: 20px;
+}
+.lowerpoke{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:flex-start;
+    border-radius: 20px;
+    border: 2px solid black;  
+    width: 800px;
+    height: 350px;
+    margin-top: 10px;
+    background-color: rgb(235, 101, 52);
+}
+
+.searchbar{
+    margin-bottom: auto;
+    margin-top: auto;
+    height: 60px;
+    font-size: 25px;
+    font-weight: 900;
+    background-color: #e40707;
+    border-radius: 30px;
+    padding: 10px;
+    
+    
+    }
+
+    .search_input{
+    color: rgb(255, 255, 255);
+    border: 1;
+    outline: 1;
+    background: none;
+    width: 0;
+    caret-color:black;
+    line-height: 40px;
+    transition: width 0.4s linear;
+    color: rgb(255, 255, 255);
+    }
+
+    .searchbar:hover > .search_input{
+    padding: 0 10px;
+    width: 450px;
+    caret-color:rgb(0, 0, 0);
+    transition: width 0.4s linear;
+    }
+
+    .searchbar:hover > .search_icon{
+    background: rgb(255, 255, 255);
+    color: #000000;
+    }
+
+    .search_icon{
+    height: 40px;
+    width: 40px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color:white;
+    text-decoration:none;
+    
+    }
+
+    .searchinput{
+        display: flex;
+        align-items: flex-start;
+        border: 2px solid black;
+        border-radius: 5px;
+        width: 525px;
+        height: 21%;
+        background-color: rgb(173, 93, 78);
+        margin-top: 10px;
+        padding: 5px;
+    }
+
+    .lowerwindow{
+    display: flex;
+    align-items: center;
+    border: 2px solid black; 
+    border-radius: 20px;
+    width: 600px;
+    height: 350px;
+    margin-top: 25px;
+    background-color: rgb(255, 247, 234);
+    margin-bottom: 10px;
+    }
+
+    .mainlowerwindow{
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;
+    border-radius: 5px;
+    width: 580px;
+    height: 220px;
+    border: 2px solid black; 
+    margin-right: 20px;
+    overflow-y: scroll;
+    direction:rtl; 
+    margin-left: 20px;
+    padding-top: 5px;
+
+    }
+
+    .upperprofile{
+        display: flex;
+        flex-direction: row;
+        border: 2px solid black;
+        border-radius: 20px;
+        width: 800px;
+        height: 100px;
+        background-color: rgb(235, 101, 52);
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+
+    }
+    .upperprofile h1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        width: 600px;
+
+    }
+
+    .settings{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid rgb(0, 0, 0) ;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 40px;
+    width: 80px;
+    height: 80px;
+    padding-left: 10px;
+
+
+    }
+
+.mainprofilebody{
+    display: flex;
+    
+    justify-content: flex-start;
+    border-radius: 20px;
+    border: 2px solid black;
+    width: 800px;
+    height: 400px;
+    margin-bottom: 10px;
+    background-color: rgb(64, 71, 109);
+
+
+}
+.listpk{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 300px;
+    height: 350px;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding-left: 10px;
+
+
+}
+.smalllistwindow{
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 280px;
+    height: 340px;
+    margin-bottom: 10px;
+    background-color: rgb(255, 247, 234);
+    overflow-y: scroll;
+    direction:rtl; 
+
+}
+
+.pokemondisplayprofile{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 400px;
+    height: 350px;
+    margin-left: 40px;
+    margin-top: 10px;
+    padding-top: 5px;
+
+}
+
+.pokemondisplay{
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 380px;
+    height: 340px;
+    margin-bottom: 10px;
+    background-color: rgb(255, 247, 234);
+
+}
+
+

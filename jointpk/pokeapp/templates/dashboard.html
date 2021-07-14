@@ -1,0 +1,70 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+
+<div class="dashboardbanner">
+    <div class="profilepicture">
+        <!--PLACE User Login Profile picture here-->
+    </div>
+    <div class="logout">
+    <a href="/profile">Profile</a>
+    <a href="/logout">Logout</a>
+    </div>
+    <div class="dashboardtext"><h1>Dashboard</h1></div>
+</div>
+<h2>Pokemon Display</h2>
+<div class="borderdisplay">
+    <div class="pokewindow">
+        <div class="mainwindow">
+
+        </div>
+    </div>
+
+</div><!--Main Upper display-->
+
+<div class="genbuttons">
+    <form action="/gen_button" method="POST">
+        <button type="button" class="btn btn-primary">I</button>
+        <button type="button" class="btn btn-primary">II</button>
+        <button type="button" class="btn btn-primary">III</button>
+        <button type="button" class="btn btn-primary">IV</button>
+        <button type="button" class="btn btn-primary">V</button>
+        <button type="button" class="btn btn-primary">VI</button>
+        <button type="button" class="btn btn-primary">VII</button>
+        <button type="button" class="btn btn-primary">VIII</button>
+        <button type="button" class="btn btn-primary">ALL GEN</button>
+        
+    </form>
+
+</div>
+
+<div class="lowerpoke">
+
+    <div class="searchinput">
+<div class="searchpk">
+    
+    <div class="search h-100">
+        <div class="d-flex justify-content-center">
+            <div class="searchbar">
+            <input class="search_input" type="text" name="" placeholder="Search..." id="myInput">
+            
+            <a href="#" class="search_icon "><div class="inside"></div><i class="fas fa-search"></i></a>
+            </div>
+        </div>
+    </div>
+</div><!--Search bar looks-->
+
+</div>
+<div class="lowerwindow">
+
+    <div class="mainlowerwindow">
+        <p>List of Pokemon</p>
+    </div>
+
+</div>
+
+</div>
+
+
+{% endblock %}

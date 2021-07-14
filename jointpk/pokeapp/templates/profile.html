@@ -1,0 +1,52 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+<a href="/dashboard">dashboard</a>
+<a href="logout">logout</a>
+<div class="upperprofile">
+    <div class="profilepicture">
+
+
+    </div>
+    <!--User Name Plus Profile-->
+    <h1> Your Profile </h1>
+    <div class="settings">
+        <a href="/settingpage">Setting</a>
+    </div>
+
+</div><!--UPPER-->
+
+<div class="mainprofilebody">
+
+    <div class="listpk">
+        <h4>List of Favorite Pokemon</h4>
+        <div class="smalllistwindow">
+
+        </div>
+
+    </div>
+
+    <div class="pokemondisplayprofile">
+        <h4>Pokemon Display</h4>
+        <div class="pokemondisplay">
+
+
+        </div>
+
+    </div>
+        
+</div><!--MainProfilebody-->
+
+<div class="lowerprofilebutton">
+    <button type="button" class="btn btn-primary">Next</button>
+    <button type="button" class="btn btn-danger">Delete</button>
+    <button type="button" class="btn btn-primary">Pev</button>
+
+</div>
+    
+
+
+
+{% endblock content %}
+    

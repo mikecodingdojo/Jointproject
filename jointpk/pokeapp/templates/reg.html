@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+
+    <h1> Sign Up Here </h1>
+    <div class="container" id="regcontainer">
+
+        <form action="/signup" method="POST" class="regform">
+            <label for="first_name">First Name</label>
+            <input type="text" class=form-control name="first_name" placeholder="First Name" required>
+            <label for="last_name">Last Name</label>
+            <input type="text" class="form-control" name="last_name" placeholder="Last Name" required>
+            <label for="email">Email</label>
+            <input type="emal" name="email" class="form-control" placeholder="email" required>
+            <label for="password">Password</label>
+            <input type="password" name="password" class="form-control" placeholder="password" required>
+            <label for="confirm-password">Confirm Password</label>
+            <input type="password" name="confirm_password" class="form-control" placeholder="confirm password" required>
+            <div class="buttonreg">
+                <a href="/login">Login?</a>
+            <button type="button" class="btn btn-primary" id="regbutton">Create </button>
+        </div>
+        </form>
+
+    </div> <!--Main reg container-->
+
+{% endblock content %}
+    
